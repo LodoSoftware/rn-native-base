@@ -17,6 +17,7 @@ jobs:
         with:
           ref: ${{ github.ref }}
           token: ${{ secrets.GRGIT_USER }}
+          fetch-depth: 0
 
       - name: Configure Git
         run: |
