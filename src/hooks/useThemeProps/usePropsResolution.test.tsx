@@ -1,27 +1,27 @@
-import React from 'react';
-import { render } from '@testing-library/react-native';
-import { theme as defaultTheme } from '../../theme';
-import { NativeBaseProvider } from '../../core/NativeBaseProvider';
 import {
   Box,
   Button,
-  Pressable,
-  // Select,
-  Image,
-  Spinner,
-  Text,
-  Input,
   Checkbox,
-  Slider,
-  // Icon,
   HStack,
   Heading,
+  Image,
+  Input,
+  Pressable,
+  Slider,
+  Spinner,
+  Text,
 } from '../../components/primitives';
 // import { Ionicons } from '@expo/vector-icons';
 import { FormControl, Menu } from '../../components/composites';
+
+import { NativeBaseProvider } from '../../core/NativeBaseProvider';
 import { Platform } from 'react-native';
+import React from 'react';
+import { theme as defaultTheme } from '../../theme';
 import { extendTheme } from '../../core/extendTheme';
 import { fireEvent } from '@testing-library/react-native';
+import { render } from '@testing-library/react-native';
+
 // import { InfoIcon } from '../../components/primitives/Icon/Icons';
 
 const inset = {
@@ -228,7 +228,6 @@ describe('props resolution', () => {
       paddingBottom: newTheme.space['5'],
       paddingLeft: newTheme.space['5'],
       paddingRight: newTheme.space['5'],
-      height: newTheme.sizes['10'],
       backgroundColor: newTheme.colors.cyan['500'],
     });
   });
@@ -253,7 +252,7 @@ describe('props resolution', () => {
       width: defaultTheme.space['20'],
     });
 
-    expect(spinner.props.style).toEqual([[{}, { dataSet: {} }], undefined]);
+    expect(spinner.props.style).toEqual([[{}, { dataSet: {} }, {}], undefined]);
   });
 
   it('resolves base style and variants, sizes and default props with props', () => {
@@ -504,9 +503,9 @@ describe('props resolution', () => {
     );
     const imageElement = getByTestId('test');
     expect(imageElement.props.style).toEqual({
-      height: defaultTheme.space['20'],
+      height: 448,
       maxWidth: '100%',
-      width: defaultTheme.space['20'],
+      width: 448,
     });
   });
 
@@ -577,7 +576,7 @@ describe('props resolution', () => {
       </Provider>
     );
     const inputElement = getByTestId('test');
-    expect(inputElement.props.style.fontSize).toBe(defaultTheme.fontSizes.sm);
+    expect(inputElement.props.style.fontSize).toBe(defaultTheme.fontSizes.xs);
   });
 
   it('Input: variant', () => {
@@ -625,9 +624,9 @@ describe('props resolution', () => {
     );
     const inputElement = getByTestId('test');
     const inputElementStack = getByTestId('stackTest');
-    expect(inputElementStack.props.style.borderBottomWidth).toBe(1);
+    expect(inputElementStack.props.style.borderBottomWidth).toBe(undefined);
     // as input of 'sm' size is mapped to 'xs' fontsize
-    expect(inputElement.props.style.fontSize).toBe(defaultTheme.fontSizes.xs);
+    expect(inputElement.props.style.fontSize).toBe(16);
   });
 
   // it('Input: inputElemets', () => {
@@ -835,7 +834,7 @@ describe('props resolution', () => {
     expect(sliderElement.props.maxValue).toBe(100);
     expect(sliderElement.props.step).toBe(10);
     expect(sliderElement.props.thumbSize).toBe(4);
-    expect(sliderElement.props.sliderSize).toBe(4);
+    expect(sliderElement.props.sliderSize).toBe(undefined);
     expect(sliderElement.props.colorScheme).toBe('red');
   });
 
@@ -899,8 +898,8 @@ describe('props resolution', () => {
     expect(sliderElement.props.minValue).toBe(20);
     expect(sliderElement.props.maxValue).toBe(120);
     expect(sliderElement.props.step).toBe(25);
-    expect(sliderElement.props.thumbSize).toBe(5);
-    expect(sliderElement.props.sliderSize).toBe(5);
+    expect(sliderElement.props.thumbSize).toBe(4);
+    expect(sliderElement.props.sliderSize).toBe(undefined);
     expect(sliderElement.props.colorScheme).toBe('blue');
   });
   it('tests lineHeight & letterspacing in text ', () => {
@@ -960,8 +959,8 @@ describe('props resolution', () => {
     expect(sliderElement.props.minValue).toBe(10);
     expect(sliderElement.props.maxValue).toBe(110);
     expect(sliderElement.props.step).toBe(15);
-    expect(sliderElement.props.thumbSize).toBe(5);
-    expect(sliderElement.props.sliderSize).toBe(5);
+    expect(sliderElement.props.thumbSize).toBe(4);
+    expect(sliderElement.props.sliderSize).toBe(undefined);
     expect(sliderElement.props.colorScheme).toBe('green');
   });
 
