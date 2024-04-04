@@ -8,6 +8,7 @@
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "flow.useNPMPackagedFlow": true,
   "editor.formatOnPaste": false,
   "prettier.jsxSingleQuote": true,

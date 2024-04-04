@@ -1,8 +1,8 @@
-import React from 'react';
-import { useTheme } from 'native-base';
-import { Platform } from 'react-native';
 import type { IHiddenProps } from './types';
+import { Platform } from 'react-native';
+import React from 'react';
 import { useColorMode } from '../../../core/color-mode/hooks';
+import { useTheme } from '../../../hooks';
 
 export const HiddenSSR = React.memo(({ children, ...props }: IHiddenProps) => {
   const theme = useTheme();

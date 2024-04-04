@@ -1,19 +1,26 @@
-name: Pull Request
-on: pull_request
+name: Release
+on: workflow_dispatch
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
-  prechecks:
+  release:
     runs-on: ubuntu-latest
+    env:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+          token: ${{ secrets.GRGIT_USER }}
 
-      - name: Enable Corepack
-        run: corepack enable
+      - name: Configure Git
+        run: |
+          git config --global user.email "UITeam.D3@ncr.com"
+          git config --global user.name "Cranjis"
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -24,12 +31,5 @@ jobs:
       - name: Install Dependencies
         run: yarn --immutable
 
-      - name: Typecheck
-        run: yarn typecheck
-
-      - name: Build
-        run: yarn build
-
-      # TODO: re-enable after refactor
-      # - name: Test
-      #   run: yarn test
+      - name: Create Release
+        run: yarn release
