@@ -1,0 +1,22 @@
+name: Pull Request
+on: pull_request
+
+jobs:
+  prechecks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+          cache: yarn
+
+      - name: Typecheck
+        run: yarn typecheck
+
+      # TODO: re-enable after refactor
+      # - name: Test
+      #   run: yarn test
