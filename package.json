@@ -1,6 +1,6 @@
 {
   "name": "@d3banking/rn-native-base",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "Essential cross-platform UI components for React Native",
   "sideEffects": false,
   "publishConfig": {
