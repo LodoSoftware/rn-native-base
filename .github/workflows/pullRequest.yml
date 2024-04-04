@@ -17,6 +17,9 @@ jobs:
           node-version-file: '.nvmrc'
           cache: yarn
 
+      - name: Install Dependencies
+        run: yarn --immutable
+
       - name: Typecheck
         run: yarn typecheck
 
