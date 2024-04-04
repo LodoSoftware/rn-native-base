@@ -30,6 +30,5 @@ jobs:
       - name: Build
         run: yarn build
 
-      # TODO: re-enable after refactor
-      # - name: Test
-      #   run: yarn test
+      - name: Test
+        run: yarn test

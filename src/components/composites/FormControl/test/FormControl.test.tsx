@@ -1,8 +1,9 @@
-import React from 'react';
 import { FormControl, useFormControl } from '../index';
+
+import React from 'react';
 import { TextInput } from 'react-native';
-import { render } from '@testing-library/react-native';
 import { Wrapper } from '../../../../utils/test-utils';
+import { render } from '@testing-library/react-native';
 
 const Input = React.forwardRef((props: any, ref: any) => {
   const inputProps = useFormControl(props);
@@ -121,5 +122,5 @@ it('sets htmlFor of FormLabel ref to nativeID of Input', async () => {
   );
   const textInput = getByPlaceholderText('Name');
   //@ts-ignore
-  expect(textInput.props.nativeID).toBe(ref.htmlFor);
+  expect(textInput.props.nativeID).toBe(ref.htmlFor + '-input');
 });
