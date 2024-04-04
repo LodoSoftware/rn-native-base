@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import { Breadcrumb, Box, Heading, HStack, Button } from 'native-base';
 import {
+  AntDesign,
   MaterialCommunityIcons,
   MaterialIcons,
-  AntDesign,
 } from '@expo/vector-icons';
+import { Box, Breadcrumb, Button, HStack, Heading } from 'native-base';
+import React, { useState } from 'react';
 
 export const Example = () => {
   const [collapsed, setCollapsed] = useState(true);
@@ -66,7 +66,7 @@ export const Example = () => {
           </Breadcrumb.Item>
           <Breadcrumb.Item isCurrent>
             <Breadcrumb.Link
-              href="https://github.com/GeekyAnts/nativebase"
+              href="https://github.com/LodoSoftware/rn-native-base"
               isExternal
             >
               <HStack>

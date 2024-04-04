@@ -12555,7 +12555,7 @@ exports[`Storyshots Breadcrumb Basic 1`] = `
           <a
             aria-current="page"
             className="css-reset-4rbku5 css-cursor-18t94o4 css-view-1dbjc4n"
-            href="https://github.com/GeekyAnts/nativebase"
+            href="https://github.com/LodoSoftware/rn-native-base"
             role="link"
             style={
               Object {
@@ -12701,7 +12701,7 @@ exports[`Storyshots Breadcrumb Basic 1`] = `
         >
           <a
             className="css-reset-4rbku5 css-cursor-18t94o4 css-view-1dbjc4n"
-            href="https://github.com/GeekyAnts/nativebase"
+            href="https://github.com/LodoSoftware/rn-native-base"
             role="link"
             style={
               Object {
@@ -13058,7 +13058,7 @@ exports[`Storyshots Breadcrumb Collapsible 1`] = `
           <a
             aria-current="page"
             className="css-reset-4rbku5 css-cursor-18t94o4 css-view-1dbjc4n"
-            href="https://github.com/GeekyAnts/nativebase"
+            href="https://github.com/LodoSoftware/rn-native-base"
             role="link"
             style={
               Object {
@@ -13480,7 +13480,7 @@ exports[`Storyshots Breadcrumb ComponentSeparator 1`] = `
         >
           <a
             className="css-reset-4rbku5 css-cursor-18t94o4 css-view-1dbjc4n"
-            href="https://github.com/GeekyAnts/nativebase"
+            href="https://github.com/LodoSoftware/rn-native-base"
             role="link"
             style={
               Object {
@@ -13878,7 +13878,7 @@ exports[`Storyshots Breadcrumb Composition 1`] = `
           <a
             aria-current="page"
             className="css-reset-4rbku5 css-cursor-18t94o4 css-view-1dbjc4n"
-            href="https://github.com/GeekyAnts/nativebase"
+            href="https://github.com/LodoSoftware/rn-native-base"
             role="link"
             style={
               Object {
@@ -14248,7 +14248,7 @@ exports[`Storyshots Breadcrumb Separators 1`] = `
         >
           <a
             className="css-reset-4rbku5 css-cursor-18t94o4 css-view-1dbjc4n"
-            href="https://github.com/GeekyAnts/nativebase"
+            href="https://github.com/LodoSoftware/rn-native-base"
             role="link"
             style={
               Object {
@@ -27507,7 +27507,7 @@ exports[`Storyshots Checkbox Form Controlled 1`] = `
               }
             }
           >
-            Selected Values: 
+            Selected Values:
           </div>
           <div
             aria-label="choose multiple items"
@@ -33609,7 +33609,7 @@ exports[`Storyshots Examples Signin Screen 1`] = `
               }
             >
               I'm a new user.
-               
+
             </div>
             <div
               className="css-view-1dbjc4n"
@@ -51009,7 +51009,7 @@ exports[`Storyshots Link External Link 1`] = `
         }
       >
         NativeBase is a component library that enables devs to build universal design systems. It is built on top of React Native, allowing you to develop apps for Android, iOS and the Web.
-         
+
         <a
           className="css-reset-4rbku5 css-cursor-18t94o4 css-view-1dbjc4n"
           href="https://nativebase.io"
@@ -53473,7 +53473,7 @@ exports[`Storyshots List StylingList 1`] = `
                 }
               }
             >
-              Ocean's 
+              Ocean's
             </div>
           </div>
         </div>
@@ -53584,7 +53584,7 @@ exports[`Storyshots List StylingList 1`] = `
                 }
               }
             >
-              Ocean's 
+              Ocean's
             </div>
           </div>
         </div>
@@ -77850,7 +77850,7 @@ exports[`Storyshots Slider Value 1`] = `
             }
           }
         >
-          onChangeValue - 
+          onChangeValue -
           70
         </div>
         <div
@@ -77876,7 +77876,7 @@ exports[`Storyshots Slider Value 1`] = `
             }
           }
         >
-          onChangeEndValue - 
+          onChangeEndValue -
           70
         </div>
         <div
@@ -80881,7 +80881,7 @@ exports[`Storyshots StatusBar Basic 1`] = `
         }
       >
         StatusBar Visibility:
-        
+
 
         Visible
       </div>
@@ -94437,7 +94437,7 @@ exports[`Storyshots useColorMode Basic 1`] = `
           }
         >
           The active color mode is
-           
+
           <span
             className="css-text-901oao css-textHasAncestor-16my406"
             style={
@@ -94610,7 +94610,7 @@ exports[`Storyshots useColorModeValue Basic 1`] = `
           }
         >
           The active color mode is
-           
+
           <span
             className="css-text-901oao css-textHasAncestor-16my406"
             style={

@@ -1,12 +1,14 @@
+import { Box, Breadcrumb, Heading } from 'native-base';
+
 import React from 'react';
-import { Breadcrumb, Box, Heading } from 'native-base';
+
 export const Example = () => {
   return (
     <Box>
       <Heading mb={4}>Default Breadcrumb</Heading>
       <Breadcrumb>
         <Breadcrumb.Item isCurrent>
-          <Breadcrumb.Link href="https://github.com/GeekyAnts/nativebase">
+          <Breadcrumb.Link href="https://github.com/LodoSoftware/rn-native-base">
             <Breadcrumb.Text _current={{ color: 'red.500' }}>
               Home (This is currently active)
             </Breadcrumb.Text>
@@ -19,7 +21,7 @@ export const Example = () => {
         </Breadcrumb.Item>
         <Breadcrumb.Item>
           <Breadcrumb.Link
-            href="https://github.com/GeekyAnts/nativebase"
+            href="https://github.com/LodoSoftware/rn-native-base"
             isExternal
           >
             <Breadcrumb.Text>Github</Breadcrumb.Text>

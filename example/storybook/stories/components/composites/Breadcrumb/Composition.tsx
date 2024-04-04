@@ -1,10 +1,11 @@
-import React from 'react';
-import { Breadcrumb, Box, Heading, HStack } from 'native-base';
 import {
+  AntDesign,
   MaterialCommunityIcons,
   MaterialIcons,
-  AntDesign,
 } from '@expo/vector-icons';
+import { Box, Breadcrumb, HStack, Heading } from 'native-base';
+
+import React from 'react';
 
 export const Example = () => {
   return (
@@ -41,7 +42,7 @@ export const Example = () => {
         </Breadcrumb.Item>
         <Breadcrumb.Item isCurrent>
           <Breadcrumb.Link
-            href="https://github.com/GeekyAnts/nativebase"
+            href="https://github.com/LodoSoftware/rn-native-base"
             isExternal
           >
             <HStack justifyContent="center" alignItems="center">

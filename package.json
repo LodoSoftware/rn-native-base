@@ -217,15 +217,11 @@
     "lib": "lib"
   },
   "gitHead": "5bbeacc403ba97622703699132c55d8359344004",
-  "homepage": "https://github.com/GeekyAnts/NativeBase#readme",
+  "homepage": "https://github.com/LodoSoftware/rn-native-base#readme",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GeekyAnts/NativeBase.git"
-  },
-  "collective": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/NativeBase"
+    "url": "git+https://github.com/LodoSoftware/rn-native-base.git"
   },
   "files": [
     "src",

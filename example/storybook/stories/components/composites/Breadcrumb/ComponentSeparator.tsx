@@ -1,6 +1,7 @@
-import React from 'react';
-import { Breadcrumb, Box, Heading, Icon } from 'native-base';
+import { Box, Breadcrumb, Heading, Icon } from 'native-base';
+
 import { Ionicons } from '@expo/vector-icons';
+import React from 'react';
 export const Example = () => {
   return (
     <Box>
@@ -21,7 +22,7 @@ export const Example = () => {
         </Breadcrumb.Item>
         <Breadcrumb.Item>
           <Breadcrumb.Link
-            href="https://github.com/GeekyAnts/nativebase"
+            href="https://github.com/LodoSoftware/rn-native-base"
             isExternal
           >
             Github
