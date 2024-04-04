@@ -1,5 +1,6 @@
 {
-  "name": "native-base",
+  "name": "@d3banking/rn-native-base",
+  "version": "4.0.0",
   "description": "Essential cross-platform UI components for React Native",
   "sideEffects": false,
   "keywords": [
@@ -14,8 +15,8 @@
     "packager"
   ],
   "scripts": {
-    "test": "node_modules/.bin/jest",
-    "typescript": "tsc --noEmit",
+    "test": "jest",
+    "typecheck": "tsc --noEmit",
     "prepare": "bob build",
     "release": "release-it",
     "example": "yarn --cwd example",
@@ -36,9 +37,7 @@
       "prettier --write"
     ]
   },
-  "version": "3.4.28",
   "license": "MIT",
-  "private": false,
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/src/index.d.ts",
@@ -232,5 +231,6 @@
     "src",
     "lib",
     "cli.js"
-  ]
+  ],
+  "packageManager": "yarn@4.1.1"
 }
