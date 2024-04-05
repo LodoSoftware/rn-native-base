@@ -161,6 +161,10 @@ const CheckboxComponent = React.memo(
       'accessibilityHint',
     ]);
 
+    const testID =
+      resolvedProps?.testID ||
+      `checkboxItemTestID${_text || resolvedProps?.accessibilityLabel}`;
+
     //TODO: refactor for responsive prop
     if (useHasResponsiveProps(resolvedProps)) {
       return null;
@@ -190,6 +194,7 @@ const CheckboxComponent = React.memo(
           composeEventHandlers(onBlur, focusProps.onBlur)
           // focusRingProps.onBlur
         )}
+        testID={`pressableItem:${testID}`}
       >
         <Stack {...layoutProps} {..._stack}>
           <Center>

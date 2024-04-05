@@ -90,6 +90,12 @@ const RadioComponent = memo(
         '_text',
       ]);
 
+      const testID =
+        resolvedProps?.testID ||
+        `radioItemTestID${
+          resolvedProps.value || resolvedProps.accessibilityLabel
+        }`;
+
       // only calling below function when icon exist.
       const sizedIcon = () =>
         //@ts-ignore
@@ -123,6 +129,7 @@ const RadioComponent = memo(
             composeEventHandlers(onBlur, focusProps.onBlur)
             // focusRingProps.onBlur
           )}
+          testID={`pressableItem:${testID}`}
         >
           <Stack {..._stack}>
             <Center>
