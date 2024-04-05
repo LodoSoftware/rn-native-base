@@ -155,6 +155,10 @@ const Select = (
     'opacity',
   ]);
 
+  const testID =
+    resolvedProps?.testID ||
+    `selectTestID${placeholder || defaultValue || accessibilityLabel}`;
+
   const commonInput = (
     <Input
       placeholder={placeholder}
@@ -188,6 +192,7 @@ const Select = (
         accessibilityRole="button"
         ref={mergeRefs([ref, _ref])}
         {...layoutProps}
+        testID={`pressableItem:${testID}`}
       >
         {commonInput}
       </Pressable>
