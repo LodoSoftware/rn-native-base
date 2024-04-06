@@ -1147,9 +1147,7 @@
     write-file-atomic "^2.3.0"
 
 "@expo/next-adapter@^3.1.3":
-  version "3.1.3"
-  resolved "https://registry.yarnpkg.com/@expo/next-adapter/-/next-adapter-3.1.3.tgz#00fa57e52aa7ed901cfcd7e76cc92107f3045148"
-  integrity sha512-sSJs4+fuMzIzhZpskYvJuGuzy8annGObubL3CdBv5tlNWhCRjrDpFCBlBPFEJ7PVeXxg6OeesRkAT77ajpJ2oQ==
+  version "3.1.21"
   dependencies:
     "@expo/package-manager" "0.0.47"
     "@expo/webpack-config" "0.16.3"
