@@ -12,5 +12,6 @@
       "matchUpdateTypes": ["patch"],
       "automerge": true
     }
-  ]
+  ],
+  "npmrc": ""
 }
