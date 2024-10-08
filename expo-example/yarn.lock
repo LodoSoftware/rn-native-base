@@ -2490,9 +2490,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/image-utils@npm:0.3.22":
-  version: 0.3.22
-  resolution: "@expo/image-utils@npm:0.3.22"
+"@expo/image-utils@npm:0.3.23":
+  version: 0.3.23
+  resolution: "@expo/image-utils@npm:0.3.23"
   dependencies:
     "@expo/spawn-async": "npm:1.5.0"
     chalk: "npm:^4.0.0"
@@ -2505,7 +2505,7 @@ __metadata:
     resolve-from: "npm:^5.0.0"
     semver: "npm:7.3.2"
     tempy: "npm:0.3.0"
-  checksum: 10c0/ca0e63c4abf33987fcec7ec5db5b7c4f50a7bb977279df9a06b217927c07a0d35bc42e82011388e005427f98fae504fafa0e39f6c07711d36107307885b71027
+  checksum: 10c0/01e9c417ffa02e4d44b5c67f6180ebf47f8a3ddbcb1ba9aef01f551daf35556660bc2ccd117157abe42a0d34c542fc8cf0030af520cab657408cfa29944402c8
   languageName: node
   linkType: hard
 
@@ -2643,8 +2643,8 @@ __metadata:
   linkType: hard
 
 "@expo/webpack-config@npm:^0.17.0":
-  version: 0.17.2
-  resolution: "@expo/webpack-config@npm:0.17.2"
+  version: 0.17.4
+  resolution: "@expo/webpack-config@npm:0.17.4"
   dependencies:
     "@babel/core": "npm:7.9.0"
     babel-loader: "npm:8.1.0"
@@ -2652,7 +2652,7 @@ __metadata:
     clean-webpack-plugin: "npm:^3.0.0"
     copy-webpack-plugin: "npm:~6.0.3"
     css-loader: "npm:~3.6.0"
-    expo-pwa: "npm:0.0.123"
+    expo-pwa: "npm:0.0.124"
     file-loader: "npm:~6.0.0"
     find-yarn-workspace-root: "npm:~2.0.0"
     getenv: "npm:^1.0.0"
@@ -2675,7 +2675,7 @@ __metadata:
     webpack: "npm:4.43.0"
     webpack-dev-server: "npm:3.11.0"
     webpack-manifest-plugin: "npm:~2.2.0"
-  checksum: 10c0/8580ba63195ed27b1ed7ae9483fe73caa3b2d554862b87b20d580b9fd734b0a3c788716fc557f9e7ae037fe394223681ef95efb686fb64f13223b2973638bb92
+  checksum: 10c0/84e3e2e30f355bf303f1e7d0d9a9dfa4ab3ae20295878de5f19d869472c7a1df072138f1249f377885534cc1be41003fd1cf221485a6742137ee59e97a9e7e6d
   languageName: node
   linkType: hard
 
@@ -8028,11 +8028,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-pwa@npm:0.0.123":
-  version: 0.0.123
-  resolution: "expo-pwa@npm:0.0.123"
+"expo-pwa@npm:0.0.124":
+  version: 0.0.124
+  resolution: "expo-pwa@npm:0.0.124"
   dependencies:
-    "@expo/image-utils": "npm:0.3.22"
+    "@expo/image-utils": "npm:0.3.23"
     chalk: "npm:^4.0.0"
     commander: "npm:2.20.0"
     update-check: "npm:1.5.3"
@@ -8040,7 +8040,7 @@ __metadata:
     expo: "*"
   bin:
     expo-pwa: build/cli.js
-  checksum: 10c0/3fe2ff16cdd7caa85e4b78f2af39e3be1e9b760356b2217d3a855ddfc520e0c7a240480752d0f513717782f8722c68f7997d185e2a08a4196366c09498745f5e
+  checksum: 10c0/6e2d6afef2b29a07f1bbe670e652e665a43126089261d6a461fce13112f670f9418cb5faa1d184e3d34c16d4df63f23ab992229f2053463f9dcfa4e07963213a
   languageName: node
   linkType: hard
 
