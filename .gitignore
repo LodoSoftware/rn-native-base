@@ -32,10 +32,6 @@ project.xcworkspace
 local.properties
 android.iml
 
-# Cocoapods
-#
-RNBareExample/ios/Pods
-
 # node.js
 #
 node_modules/
