@@ -9014,22 +9014,22 @@ __metadata:
   linkType: hard
 
 "typescript@npm:^3.8.3":
-  version: 3.9.9
-  resolution: "typescript@npm:3.9.9"
+  version: 3.9.10
+  resolution: "typescript@npm:3.9.10"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/821fc1088d34269af54845094497784ede68fc68417b5f4a174b8ec48bafb8c558177b05a0cc151830ef8110de09dd5bd0e8f29c1124b395af47319110fd1ef4
+  checksum: 10c0/863cc06070fa18a0f9c6a83265fb4922a8b51bf6f2c6760fb0b73865305ce617ea4bc6477381f9f4b7c3a8cb4a455b054f5469e6e41307733fe6a2bd9aae82f8
   languageName: node
   linkType: hard
 
 "typescript@patch:typescript@npm%3A^3.8.3#optional!builtin<compat/typescript>":
-  version: 3.9.9
-  resolution: "typescript@patch:typescript@npm%3A3.9.9#optional!builtin<compat/typescript>::version=3.9.9&hash=3bd3d3"
+  version: 3.9.10
+  resolution: "typescript@patch:typescript@npm%3A3.9.10#optional!builtin<compat/typescript>::version=3.9.10&hash=3bd3d3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/b4c31b187f860bbacc6d42379c1f338d850258f401ef06f0015fb1916f4aad0d63777af08b183161eb7ef675a6525d90cde45064606a84f349e22521392bf6b9
+  checksum: 10c0/9041fb3886e7d6a560f985227b8c941d17a750f2edccb5f9b3a15a2480574654d9be803ad4a14aabcc2f2553c4d272a25fd698a7c42692f03f66b009fb46883c
   languageName: node
   linkType: hard
 
