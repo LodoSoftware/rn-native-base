@@ -2045,31 +2045,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"RNBareExample@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "RNBareExample@workspace:."
-  dependencies:
-    "@babel/core": "npm:^7.12.9"
-    "@babel/runtime": "npm:^7.12.5"
-    "@react-native-community/eslint-config": "npm:^2.0.0"
-    "@types/jest": "npm:^26.0.23"
-    "@types/react-native": "npm:^0.64.5"
-    "@types/react-test-renderer": "npm:^16.9.2"
-    babel-jest: "npm:^26.6.3"
-    babel-plugin-module-resolver: "npm:^4.1.0"
-    eslint: "npm:^7.14.0"
-    jest: "npm:^26.6.3"
-    metro-react-native-babel-preset: "npm:^0.64.0"
-    react: "npm:17.0.1"
-    react-native: "npm:0.64.1"
-    react-native-linear-gradient: "npm:^2.5.6"
-    react-native-safe-area-context: "npm:^3.2.0"
-    react-native-svg: "npm:^12.1.1"
-    react-test-renderer: "npm:17.0.1"
-    typescript: "npm:^3.8.3"
-  languageName: unknown
-  linkType: soft
-
 "abab@npm:^2.0.3, abab@npm:^2.0.5":
   version: 2.0.5
   resolution: "abab@npm:2.0.5"
@@ -8254,6 +8229,31 @@ __metadata:
   checksum: 10c0/f1e646f8c567795f2916aef7aadf685b543da6b9a53e482bb04b07472c7eef2b476045ba1e29f401c301c66b630b22b815ab31fdd60c5e1ae6566ff523debf45
   languageName: node
   linkType: hard
+
+"rn-bare-example@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "rn-bare-example@workspace:."
+  dependencies:
+    "@babel/core": "npm:^7.12.9"
+    "@babel/runtime": "npm:^7.12.5"
+    "@react-native-community/eslint-config": "npm:^2.0.0"
+    "@types/jest": "npm:^26.0.23"
+    "@types/react-native": "npm:^0.64.5"
+    "@types/react-test-renderer": "npm:^16.9.2"
+    babel-jest: "npm:^26.6.3"
+    babel-plugin-module-resolver: "npm:^4.1.0"
+    eslint: "npm:^7.14.0"
+    jest: "npm:^26.6.3"
+    metro-react-native-babel-preset: "npm:^0.64.0"
+    react: "npm:17.0.1"
+    react-native: "npm:0.64.1"
+    react-native-linear-gradient: "npm:^2.5.6"
+    react-native-safe-area-context: "npm:^3.2.0"
+    react-native-svg: "npm:^12.1.1"
+    react-test-renderer: "npm:17.0.1"
+    typescript: "npm:^3.8.3"
+  languageName: unknown
+  linkType: soft
 
 "rsvp@npm:^4.8.4":
   version: 4.8.5
