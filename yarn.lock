@@ -4467,11 +4467,11 @@ __metadata:
   linkType: hard
 
 "@types/lodash.isempty@npm:^4.4.6":
-  version: 4.4.6
-  resolution: "@types/lodash.isempty@npm:4.4.6"
+  version: 4.4.9
+  resolution: "@types/lodash.isempty@npm:4.4.9"
   dependencies:
     "@types/lodash": "npm:*"
-  checksum: 10c0/ac373ff73a5baa0ccb2f67adcb7c696b6839c871cd7662e20e3f0d5d751fbd5eaadec043b7fa13e83ae9460a93d7923d4dfbc159ee41e1906a1017373bb07584
+  checksum: 10c0/581b3b1e896524b00cb32dc08f1aea328cec0ab95720f24e0f6d9e8a2c9be5b65e4ad030ec45f58f656ab8dcf555f039863862e04c91051a24ee27cac8a994ab
   languageName: node
   linkType: hard
 
