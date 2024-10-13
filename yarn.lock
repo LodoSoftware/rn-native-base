@@ -4521,11 +4521,11 @@ __metadata:
   linkType: hard
 
 "@types/lodash.omitby@npm:^4.6.6":
-  version: 4.6.6
-  resolution: "@types/lodash.omitby@npm:4.6.6"
+  version: 4.6.9
+  resolution: "@types/lodash.omitby@npm:4.6.9"
   dependencies:
     "@types/lodash": "npm:*"
-  checksum: 10c0/bca27b32f460275625d7e8c02f658ffe734eafa178935f7218af325779b84d512b412fbab74a8a24b0d5f5b6f9eb585b3332b5389af9ea747b4cf1a2b78b81f1
+  checksum: 10c0/e8850219326634c5b531e3398d24701000328e4366504d9315c1660c2fe2a0d4fc9aa2983b8c652ee7239921cd16103b37b1e44efdf25658de2a36f64b76888a
   languageName: node
   linkType: hard
 
