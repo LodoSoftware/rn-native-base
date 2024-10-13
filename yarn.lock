@@ -4530,11 +4530,11 @@ __metadata:
   linkType: hard
 
 "@types/lodash.pick@npm:^4.4.6":
-  version: 4.4.6
-  resolution: "@types/lodash.pick@npm:4.4.6"
+  version: 4.4.9
+  resolution: "@types/lodash.pick@npm:4.4.9"
   dependencies:
     "@types/lodash": "npm:*"
-  checksum: 10c0/6d5fc0fbafd933104837a2da23a91ed408dca5bd6ff7374decf213dd1666589d56f07f4b69df4cf962b0a22a0e2c38b8d7145e3c899a8215500688666782bc15
+  checksum: 10c0/61ae2fb9fe817a2f398863d10dc57e3cb864ebadefb7f3554d8d0c189448e08a174d6bfdd6e0220988ea084a2d47c3377908cf037e2b3ce552aa79ce0f36bc9f
   languageName: node
   linkType: hard
 
