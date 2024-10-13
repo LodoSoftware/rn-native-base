@@ -4539,11 +4539,11 @@ __metadata:
   linkType: hard
 
 "@types/lodash.uniqueid@npm:^4.0.7":
-  version: 4.0.7
-  resolution: "@types/lodash.uniqueid@npm:4.0.7"
+  version: 4.0.9
+  resolution: "@types/lodash.uniqueid@npm:4.0.9"
   dependencies:
     "@types/lodash": "npm:*"
-  checksum: 10c0/0330dbcebd3bae1c09c5299bc286a381d6eebc24d2f298a3e55a6dd3f9a1c71cecabface215cb8c1b3698acbb4a09e7fca7cebe42e5f551197ba5d406885edc4
+  checksum: 10c0/b591469cc314ab7e9b5ddae8b2c4b84be9795396c49100c76014d5800969a548705b64c0810495385fc2be1961858ee969b6ce4d8a7e46ff39018b6997f2143c
   languageName: node
   linkType: hard
 
